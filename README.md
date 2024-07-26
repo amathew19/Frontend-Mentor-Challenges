@@ -1,6 +1,6 @@
 # Frontend Mentor Challenges
 
-Welcome to the repository containing my solutions to various Frontend Mentor challenges.__ 
+Welcome to the repository containing my solutions to various Frontend Mentor challenges. __ 
 Here is a link to the website: https://www.frontendmentor.io
 
 ## What You'll Find in This Repository
