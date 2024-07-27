@@ -1,5 +1,6 @@
 .attribution {
     font-size: 11px; text-align: center;
+    margin: 20px;
 }
 
 .attribution a {
@@ -12,6 +13,10 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+h2, h4, p {
+    margin: 0;
 }
 
 #card {
@@ -37,6 +42,7 @@ html {
     height: 100%;
     border: 2px solid chartreuse;
     display: inline-block;
+    vertical-align:top;
 }
 
 #bottom-right-section{
@@ -44,4 +50,5 @@ html {
     height: 100%;
     border: 2px solid chartreuse;
     display: inline-block;
+    vertical-align:top;
 }
