@@ -134,3 +134,10 @@ button:hover{
     cursor: pointer;
     transform: scale(1.01);
 }
+
+@media (max-width: 650px){
+    #card, #bottom-left-section, #bottom-right-section {
+        height: 100%;
+        width: 100%;
+    }
+}
