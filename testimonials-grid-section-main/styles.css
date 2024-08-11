@@ -5,3 +5,43 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+#main-section{
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#left-section{
+    border: 1px solid green;
+}
+
+#left-top-section{
+    border: 1px solid red;
+}
+
+#left-top-first-section{
+    border: 1px solid purple;
+}
+
+#left-top-second-section{
+    border: 1px solid aqua;
+}
+
+#left-bottom-section{
+    border: 1px solid orange;
+}
+
+#left-bottom-first-section{
+    border: 2px solid olive;
+}
+
+#left-bottom-second-section{
+    border: 2px solid springgreen;
+}
+
+#right-section {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
