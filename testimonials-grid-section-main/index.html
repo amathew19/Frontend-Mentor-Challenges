@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
   <title>Frontend Mentor | Testimonials Grid Challenge</title>
   <meta
@@ -17,7 +17,7 @@
   <div id="main-section">
     <div id="left-section">
         <div id="left-top-section">
-          <div id="left-top-first-section">
+          <div id="left-top-first-section" class="flex-item">
             Daniel Clifford
             Verified Graduate
 
@@ -30,7 +30,7 @@
             The next 12 weeks was the best - and most grueling - time of my life. Since completing
             the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
           </div>
-          <div id="left-top-second-section">
+          <div id="left-top-second-section" class="flex-item">
             Jonathan Walters
             Verified Graduate
 
@@ -41,7 +41,7 @@
           </div>
         </div>
         <div id="left-bottom-section">
-          <div id="left-bottom-first-section">
+          <div id="left-bottom-first-section" class="flex-item">
             Jeanette Harmon
             Verified Graduate
 
@@ -50,9 +50,14 @@
             “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
             while doing something I love. ”
           </div>
-          <div id="left-bottom-second-section">
-            Patrick Abrams
-            Verified Graduate
+          <div id="left-bottom-second-section" class="flex-item">
+              <div class="profile-header">
+                  <img src="images/image-patrick.jpg" alt="Profile Picture of Patrick Abrams"/>
+                  <div class="profile-info">
+                      <h5>Patrick Abrams </h5>
+                      <p>Verified Graduate</p>
+                  </div>
+              </div>
 
             Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
             learning from their experiences was easy.
@@ -64,7 +69,7 @@
           </div>
         </div>
     </div>
-    <div id="right-section">
+    <div id="right-section" class="flex-item">
         <div class="profile-header">
             <img src="images/image-kira.jpg" alt="Profile Picture of Kira Whittle"/>
             <div class="profile-info">
